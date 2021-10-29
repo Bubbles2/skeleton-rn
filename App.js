@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import TestSnippets from './TestSnippets';
 
 export default function App() {
+  console.log("test.  =====>")
   return (
     <View style={styles.container}>
      <TestSnippets></TestSnippets>
